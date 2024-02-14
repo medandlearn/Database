@@ -1,3 +1,3 @@
 --SELECT * FROM Artikel
-Select * FROM Artikelgruppe
+-- Select * FROM Artikelgruppe
 Select * FROM Einkaufswagen
