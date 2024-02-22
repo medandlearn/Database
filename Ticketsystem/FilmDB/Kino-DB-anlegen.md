@@ -1,4 +1,6 @@
 ### VScode (PC oder Codespaces) mit SQLite verknüpfen
+#### Schritt 0 Neues Repository Datenbanken anlegen mit Readme-Datei
+
 #### Schritt 1 Extension SQLite installieren
 Wählen Sie das Menü Erweiterungen aus und suchen Sie nach sqlite.
 ![Screenshot Using Sqlite](image.png)
