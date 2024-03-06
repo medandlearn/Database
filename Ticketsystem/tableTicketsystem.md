@@ -1,4 +1,23 @@
-### Table user
+## Abfragen
+```sql
+SELECT * FROM Users;
+SELECT * FROM Status;
+SELECT * FROM Tickets;
+SELECT * FROM Devices;
+```
 
-<table><tr><th>UserId</th><th>Username</th><th>Role</th><tr><tr><td>1</td><td>Benutzer1</td><td>User</td></tr><tr><td>2</td><td>Benutzer2</td><td>User</td></tr><tr><td>3</td><td>Admin1</td><td>Admin</td></tr></table><table><tr><th>StatusId</th><th>StatusName</th><tr><tr><td>1</td><td>Offen</td></tr><tr><td>2</td><td>In Progress</td></tr><tr><td>3</td><td>Erledigt</td></tr></table><table><tr><th>TicketId</th><th>DeviceId</th><th>UserId</th><th>AdminId</th><th>IssueDate</th><th>IssueDescription</th><th>ResolutionDate</th><th>ResolutionDescription</th><th>StatusId</th><tr><tr><td>1</td><td>1</td><td>1</td><td>NULL</td><td>2023-01-01</td><td>Defekter Bildschirm</td><td>NULL</td><td>NULL</td><td>1</td></tr><tr><td>2</td><td>2</td><td>2</td><td>NULL</td><td>2023-01-02</td><td>Startet nicht</td><td>NULL</td><td>NULL</td><td>1</td></tr><tr><td>3</td><td>3</td><td>1</td><td>3</td><td>2023-01-03</td><td>Langsamer Betrieb</td><td>2023-01-04</td><td>Neustart erforderlich</td><td>3</td></tr></table><table><tr><th>DeviceId</th><th>DeviceName</th><th>Room</th><tr><tr><td>1</td><td>Rechner1</td><td>Raum101</td></tr><tr><td>2</td><td>Rechner2</td><td>Raum102</td></tr><tr><td>3</td><td>Rechner3</td><td>Raum103</td></tr></table>
+## Abfrageergebnisse
+
+### Table Users
+
+<table><tr><th>UserId</th><th>Username</th><th>Role</th><tr><tr><td>1</td><td>Benutzer1</td><td>User</td></tr><tr><td>2</td><td>Benutzer2</td><td>User</td></tr><tr><td>3</td><td>Admin1</td><td>Admin</td></tr></table>
+
+### Table Status
+<table><tr><th>StatusId</th><th>StatusName</th><tr><tr><td>1</td><td>Offen</td></tr><tr><td>2</td><td>In Progress</td></tr><tr><td>3</td><td>Erledigt</td></tr></table>
+
+### Table Tickets
+<table><tr><th>TicketId</th><th>DeviceId</th><th>UserId</th><th>AdminId</th><th>IssueDate</th><th>IssueDescription</th><th>ResolutionDate</th><th>ResolutionDescription</th><th>StatusId</th><tr><tr><td>1</td><td>1</td><td>1</td><td>NULL</td><td>2023-01-01</td><td>Defekter Bildschirm</td><td>NULL</td><td>NULL</td><td>1</td></tr><tr><td>2</td><td>2</td><td>2</td><td>NULL</td><td>2023-01-02</td><td>Startet nicht</td><td>NULL</td><td>NULL</td><td>1</td></tr><tr><td>3</td><td>3</td><td>1</td><td>3</td><td>2023-01-03</td><td>Langsamer Betrieb</td><td>2023-01-04</td><td>Neustart erforderlich</td><td>3</td></tr></table>
+
+### Table Devices
+<table><tr><th>DeviceId</th><th>DeviceName</th><th>Room</th><tr><tr><td>1</td><td>Rechner1</td><td>Raum101</td></tr><tr><td>2</td><td>Rechner2</td><td>Raum102</td></tr><tr><td>3</td><td>Rechner3</td><td>Raum103</td></tr></table>
 
